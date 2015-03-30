@@ -1,0 +1,19 @@
+name: authors
+version: 0.1.0
+description: AUTHORS generator for Crystal.
+author:
+  name: Chris Tate
+  email: "chris@studiotate.com"
+  url: "http://studiotate.com"
+copyright: 2014 Studio Tate
+repository:
+  type: git
+  url: "git://github.com/studiotate/crystal-authors.git"
+generators:
+  project:
+    version: latest
+gen:
+  file:
+    authors:
+      data: contributors
+      dest: AUTHORS

@@ -1,0 +1,12 @@
+name: authors-test
+version: 0.1.0
+description: authors test
+
+author:
+  name: Test User
+  email: test.user@example.org
+  url: http://example.org
+
+generators:
+  authors:
+    version: latest
