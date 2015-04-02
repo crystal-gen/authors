@@ -8,7 +8,7 @@ author:
 copyright: 2014 Studio Tate
 repository:
   type: git
-  url: "git://github.com/studiotate/crystal-authors.git"
+  url: "https://github.com/studiotate/crystal-authors.git"
 generators:
   project:
     version: latest
