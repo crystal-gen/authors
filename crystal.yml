@@ -17,3 +17,21 @@ gen:
     authors:
       data: contributors
       dest: AUTHORS
+schema:
+  type: object
+  properties:
+    author:
+      config: true
+      type:
+        - string
+        - object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        url:
+          type: string
+    name:
+      config: true
+      type: string
