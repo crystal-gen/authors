@@ -1,4 +1,4 @@
-# {{name}} authors
-{{author.name}}{{#if author.email}} <{{author.email}}>{{/if}}{{#contributors}}
-{{name}}{{#if email}} <{{email}}>{{/if}}{{*url}} ({{{url}}}){{/url}}
-{{/contributors}}
+# {{#if name}}{{{name}}}{{else}}{{{@name}}}{{/if}} authors
+{{#if author.name}}{{{author.name}}}{{else}}{{{@author.name}}}{{/if}} <{{#if author.email}}{{{author.email}}}{{else}}{{{@author.email}}}{{/if}}> {{#if contributors}}
+{{{name}}}{{#if email}} <{{{email}}}>{{/if}}{{#if url}} ({{{url}}}){{/if}}
+{{/if}}
